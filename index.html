@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="rcloneを利用した個人用Google Drive連携の説明ページ。">
+  <title>rclone — 個人用Google Drive連携</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">rclone <span>個人用連携</span></a><nav aria-label="メイン"><a href="privacy.html">プライバシーポリシー</a></nav></header>
+  <main>
+    <p class="eyebrow">PERSONAL USE</p>
+    <h1>自分のファイルを、<br>自分の環境で。</h1>
+    <p class="lead">rcloneを使って、所有者本人のGoogle Driveとローカル端末の間でファイルを管理するための、個人用OAuthアプリの説明ページです。</p>
+    <section>
+      <h2>この連携について</h2>
+      <p>Googleの同意画面に表示されるアプリ名は「rclone」です。このOAuthアプリはGitHubユーザー <a href="https://github.com/yakou0">yakou0</a> が個人利用のために管理しています。一般向けのサービスではなく、Googleやrclone開発元が運営する公式サイトでもありません。</p>
+    </section>
+    <section>
+      <h2>利用する機能と権限</h2>
+      <p>本人が認証したGoogle Drive内のファイル・フォルダの一覧表示、ダウンロード、アップロード、コピー、同期に使用します。実行するコマンドに応じて、ファイルの作成・変更・削除も行います。</p>
+      <p>このため、Google Driveのファイルの閲覧・作成・編集・削除に対応する権限（<code>https://www.googleapis.com/auth/drive</code>）を使用します。Googleへのアクセス許可はGoogleの認証画面で行い、この説明サイトではログインやファイルの受け取りを行いません。</p>
+    </section>
+    <section>
+      <h2>データの扱い</h2>
+      <p>ファイルの転送は、ローカル端末上のrcloneとGoogle Driveの間で行います。このサイトや公開リポジトリに、Driveのファイル、パスワード、OAuthトークンを送信する仕組みはありません。</p>
+      <a class="button" href="privacy.html">プライバシーポリシーを読む <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+  <footer>個人用Google Drive連携 · 管理者: yakou0<br><a href="https://github.com/yakou0/rclone-personal">公開ページのソース</a></footer>
+</body>
+</html>

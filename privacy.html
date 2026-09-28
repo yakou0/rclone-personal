@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="個人用rclone連携におけるGoogle Driveデータと認証情報の取り扱い。">
+  <title>プライバシーポリシー — rclone 個人用連携</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">rclone <span>個人用連携</span></a><nav aria-label="メイン"><a href="./">ホーム</a></nav></header>
+  <main>
+    <p class="eyebrow">PRIVACY POLICY</p>
+    <h1>プライバシーポリシー</h1>
+    <p class="lead">対象: yakou0が管理する個人用OAuthアプリ「rclone」<br>制定・更新日: 2026年9月28日</p>
+    <section>
+      <h2>1. 目的と対象</h2>
+      <p>本アプリは、所有者本人がrcloneを使用して、自分のGoogle Driveとローカル端末の間でファイルを管理するためのものです。他の利用者を募集するサービスではありません。本ポリシーはこの個人用連携に適用され、rcloneソフトウェア全体やGoogle、GitHubのサービスを代表するものではありません。</p>
+    </section>
+    <section>
+      <h2>2. アクセスするデータと利用目的</h2>
+      <p>本人が許可したGoogle Driveのファイル内容とメタデータ（ファイル名、フォルダ構成、サイズ、更新日時など）にアクセスします。Google Driveの閲覧・作成・編集・削除の権限を使用し、本人が実行する一覧表示、転送、コピー、同期、変更、削除の処理にのみ利用します。</p>
+      <p>Googleから発行されるOAuthのアクセストークンと更新トークンは、認証と継続的な接続のために使用します。Googleアカウントのパスワードを、この説明サイトが取得することはありません。</p>
+    </section>
+    <section>
+      <h2>3. 保存と転送</h2>
+      <p>ファイルはGoogle Driveおよび本人が指定するローカル端末の保存先で管理します。OAuthトークンなどの接続情報はローカル端末のrclone設定に保存します。使用するコマンドや設定によっては、ローカル端末にキャッシュやログが残る場合があります。</p>
+      <p>rcloneとGoogleのサービス間の通信にはHTTPSを使用します。この説明サイトおよび公開GitHubリポジトリを、Driveデータや認証情報の保存先・中継先として使用しません。</p>
+    </section>
+    <section>
+      <h2>4. 共有と利用の制限</h2>
+      <p>本連携で取得したGoogleユーザーデータを、広告、販売、第三者への提供、汎用AIモデルの学習のために利用しません。Google APIから受け取る情報の利用は、Limited Use要件を含む <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> に従います。</p>
+    </section>
+    <section>
+      <h2>5. 保存期間と削除・利用停止</h2>
+      <p>ファイルとローカルのコピー・キャッシュ・ログは、所有者本人が必要な期間管理し、不要になった際に削除します。<a href="https://myaccount.google.com/connections">Googleアカウントの接続管理</a>から本アプリのアクセス許可を取り消せます。</p>
+      <p>利用を終了する場合は、アクセス許可の取り消しに加え、ローカルに保存したrcloneの接続設定・認証情報を削除します。アクセス許可を取り消しても、既に転送したファイルは自動的には削除されません。</p>
+    </section>
+    <section>
+      <h2>6. この説明サイトの閲覧</h2>
+      <p>このサイトはGitHub Pages上の静的ページです。独自の解析ツール、広告、Cookie、入力フォーム、Googleログイン機能は設置していません。ホスティング提供元のGitHubが、サービス提供やセキュリティのためにIPアドレス等のアクセス情報を取り扱う場合があります。詳しくは <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーに関する声明</a>をご確認ください。</p>
+    </section>
+    <section>
+      <h2>7. 管理者・問い合わせ・更新</h2>
+      <p>管理者はGitHubユーザー <a href="https://github.com/yakou0">yakou0</a> です。本アプリに関する問い合わせには、GoogleのOAuth同意画面に表示されるサポート連絡先を使用してください。公開の場に認証情報や個人ファイルを記載しないでください。</p>
+      <p>データの扱いを変更する場合は、本ページと更新日を更新します。</p>
+    </section>
+  </main>
+  <footer><a href="./">ホームへ戻る</a> · 管理者: yakou0</footer>
+</body>
+</html>
